@@ -1,0 +1,6 @@
+.idea
+.env
+/var/cache/*
+!/var/cache/.gitkeep
+/var/results/*
+!/var/results/.gitkeep
