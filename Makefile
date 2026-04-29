@@ -5,7 +5,7 @@ help:
 	@echo "Available commands:"
 	@echo "\tmake help"
 	@echo "\tmake show"
-	@echo "\tmake help"
+	@echo "\tmake cache:clear"
 	@echo "\tmake run QUERY=\"text\" #Optional PROJECTS=\"project1,project2\""
 	@echo ""
 
