@@ -1,0 +1,12 @@
+services:
+  gitlab-searcher:
+    image: qpowf10/tools:gitlab-searcher-1.0
+    container_name: gitlab-searcher
+    init: true
+    stdin_open: true
+    tty: true
+    env_file:
+      - .env
+    volumes:
+      - ./var/cache:/app/var/cache
+      - ./var/results:/app/var/results
