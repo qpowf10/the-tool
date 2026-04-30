@@ -1,6 +1,6 @@
 services:
   gitlab-searcher:
-    image: qpowf10/tools:gitlab-searcher-1.0
+    image: qpowf10/gitlab-searcher:1.0
     container_name: gitlab-searcher
     init: true
     stdin_open: true
