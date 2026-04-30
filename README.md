@@ -36,12 +36,12 @@ Recommended for Linux, macOS, or Windows environments using WSL/Git Bash.
 
 #### List of all commands
 
-| Make command                                                            | Description                                                                              |
-| ----------------------------------------------------------------------- |------------------------------------------------------------------------------------------|
-| make show                                                               | Displays the results file using the less pager                                           |
-| make cache:clear                                                        | Deletes the project cache file to force a synchronization with the API                   |
-| make help                                                               | List all of the available commands                                                       |
-| make run QUERY="search_text" PROJECTS="group/project1,group/project2"   | Run the tool. The QUERY parameter is mandatory. PROJECTS is optional (comma-separated).  |
+| Make command                                                        | Description                                                                              |
+|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| make show                                                           | Displays the results file using the less pager                                           |
+| make cache:clear                                                    | Deletes the project cache file to force a synchronization with the API                   |
+| make help                                                           | List all of the available commands                                                       |
+| make run QUERY="search_text" PROJECTS="project_name1,project_name2" | Run the tool. The QUERY parameter is mandatory. PROJECTS is optional (comma-separated).  |
 
 ## Usage without Make (Direct Commands)
 
@@ -49,7 +49,7 @@ Recommended for Linux, macOS, or Windows environments using WSL/Git Bash.
 #### Execute a search
 
 ```
-docker compose run --rm gitlab-searcher "search_text" "group/project1,group/project2"
+docker compose run --rm gitlab-searcher "search_text" "project_name1,project_name2"
 ```
 
 #### View results
