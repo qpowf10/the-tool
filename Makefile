@@ -11,7 +11,7 @@ help:
 
 run:
 	@if [ -z "$(QUERY)" ]; then \
-		echo "Error: Proper use -> make gitlab-search QUERY=\"text\" PROJECTS=\"project1,project2\" #Optional "; \
+		echo "Error: Proper use -> make run QUERY=\"text\" PROJECTS=\"project1,project2\" #Optional "; \
 		exit 1; \
 	fi
 
